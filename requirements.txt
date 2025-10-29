@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-multipart
+tensorflow
+opencv-contrib-python  # 'contrib' paketi SR modeli için gerekli!
+scikit-image
+numpy
+Pillow

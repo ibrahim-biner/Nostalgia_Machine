@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostalji Makinesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nostalji Makinesi</h1>
+            <p>Eski fotoğraflarınızı renklendirin ve canlandırın</p>
+        </header>
+
+        <form id="upload-form">
+            <div class="upload-area" id="upload-area">
+                <p>Renklendirmek için bir fotoğraf sürükleyin<br>veya<br> buraya tıklayın</p>
+                <input type="file" id="file-input" accept="image/*" required>
+            </div>
+            
+            <div class="options">
+                <input type="checkbox" id="use-super-resolution" checked>
+                <label for="use-super-resolution">Yüksek Çözünürlük Uygula (Keskinleştirir)</label>
+            </div>
+            
+            <button type="submit" id="submit-button">İşlemi Başlat</button>
+        </form>
+
+        <div class="results" id="results">
+            <div class="image-box" id="original-box">
+                <h3>Orijinal (Girdi)</h3>
+                <img id="original-image" alt="Orijinal Görüntü">
+            </div>
+            <div class="image-box" id="result-box">
+                <h3>İşlenmiş Sonuç</h3>
+                <img id="result-image" alt="İşlenmiş Görüntü">
+            </div>
+        </div>
+        
+        <a id="download-button" class="button" style="display:none;">Sonucu İndir</a>
+    </div>
+
+    <div class="loader-overlay" id="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p>Nostalji Makinesi çalışıyor...<br>Bu işlem 30 saniye sürebilir.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
