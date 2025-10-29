@@ -1,10 +1,12 @@
-# Python 3.9'u temel alıyoruz
-FROM python:3.9-slim
+# ESKİ HALİ: FROM python:3.9-slim
+# YENİ HALİ: "bullseye" (Debian 11) tabanlı kararlı 3.9 sürümünü kullan
+FROM python:3.9-slim-bullseye
 
 # Çalışma dizinini /app olarak ayarla
 WORKDIR /app
 
 # Sistem bağımlılıklarını yükle (OpenCV için gerekli)
+# Bu paketler "bullseye" sürümünde %100 mevcuttur
 RUN apt-get update && apt-get install -y \
     libgl1-mesa-glx \
     libglib2.0-0 \
