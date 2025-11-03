@@ -1,11 +1,10 @@
 # 🎞️ Nostalgia Machine: AI Photo Colorization & Super-Resolution
 
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)]([https://huggingface.co/spaces/BronSS/Nostalgia_Machine])
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/BronSS/Nostalgia_Machine)
 
 Bring your old, faded, or black & white photos back to life! This application uses a powerful two-stage deep learning pipeline to automatically **colorize** your memories and then **upscale** them into sharp, high-resolution images.
 
-### ✨ [Live Demo on Hugging Face Spaces]([https://huggingface.co/spaces/BronSS/Nostalgia_Machine])
-
+### ✨ [Live Demo on Hugging Face Spaces](https://huggingface.co/spaces/BronSS/Nostalgia_Machine)
 ---
 
 ### 🚀 How It Works
