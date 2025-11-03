@@ -4,7 +4,7 @@
 
 Bring your old, faded, or black & white photos back to life! This application uses a powerful two-stage deep learning pipeline to automatically **colorize** your memories and then **upscale** them into sharp, high-resolution images.
 
-### ✨ [Live Demo on Hugging Face Spaces]([SENİN-HF-LINKIN-BURAYA])
+### ✨ [Live Demo on Hugging Face Spaces]([https://huggingface.co/spaces/BronSS/Nostalgia_Machine])
 
 ---
 
@@ -12,8 +12,7 @@ Bring your old, faded, or black & white photos back to life! This application us
 
 This isn't just a simple filter. Your image is processed by two separate AI models in a sequential pipeline to achieve the final result.
 
-![Demo Screenshot](https://i.imgur.com/15d178.png)
-*(Buraya köpek veya elma fotoğrafı gibi kendi "önce/sonra" ekran görüntünü koyabilirsin)*
+
 
 **Stage 1: AI Colorization (U-Net)**
 * The original image is first fed into a **U-Net** deep learning model.
@@ -56,8 +55,8 @@ This project is a full-stack MLOps application, combining backend, frontend, and
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[SENİN-KULLANICI-ADIN/REPO-ADIN].git
-    cd [REPO-ADIN]
+    git clone [https://github.com/](https://github.com/)[ibrahim-biner/Nostalgia_Machine].git
+    cd [Nostalgia_Machine]
     ```
 
 2.  **Install Git LFS:**
