@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cousine', 'Courier New', monospace;
-    background-color: #f4f1ea; /* Eskitilmiş kağıt rengi */
+    background-color: #f4f1ea; 
     color: #363636;
     display: flex;
     justify-content: center;
@@ -82,7 +82,7 @@ button[type="submit"]:hover {
 }
 
 .results {
-    display: none; /* JS ile gösterilecek */
+    display: none; 
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 30px;
@@ -104,7 +104,7 @@ button[type="submit"]:hover {
 .image-box img {
     width: 100%;
     height: auto;
-    display: none; /* Yüklenince JS ile gösterilecek */
+    display: none; 
 }
 
 #download-button {
@@ -115,7 +115,7 @@ button[type="submit"]:hover {
     background-color: #218838;
 }
 
-/* Yükleme Ekranı Stilleri */
+
 .loader-overlay {
     position: fixed;
     top: 0;

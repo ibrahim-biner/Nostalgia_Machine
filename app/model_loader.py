@@ -3,7 +3,7 @@ from tensorflow.keras.losses import MeanSquaredError
 import cv2
 import os
 
-# Ayarlar
+
 COLOR_MODEL_PATH = "models/colorization_unet_generator_best.h5"
 SR_MODEL_PATH = "models/EDSR_x4.pb"
 SR_MODEL_NAME = "edsr"
@@ -15,7 +15,7 @@ def load_all_models():
     """
     print("Modeller yükleniyor...")
     
-    # 1. Renklendirme Modelini Yükle
+    
     try:
         custom_objects = {'mse': MeanSquaredError()}
         color_model = tf.keras.models.load_model(COLOR_MODEL_PATH, custom_objects=custom_objects)
@@ -24,7 +24,7 @@ def load_all_models():
         print(f"HATA: Renklendirme modeli yüklenemedi: {e}")
         color_model = None
 
-    # 2. Süper Çözünürlük Modelini Yükle
+    
     try:
         sr = cv2.dnn_superres.DnnSuperResImpl_create()
         sr.readModel(SR_MODEL_PATH)
