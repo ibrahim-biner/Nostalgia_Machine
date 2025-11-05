@@ -7,7 +7,7 @@ Bring your old, faded, or black & white photos back to life! This application us
 ### ✨ [Live Demo on Hugging Face Spaces](https://huggingface.co/spaces/BronSS/Nostalgia_Machine)
 ---
 
-### 🚀 How It Works
+### How It Works
 
 This isn't just a simple filter. Your image is processed by two separate AI models in a sequential pipeline to achieve the final result.
 
@@ -25,7 +25,7 @@ This isn't just a simple filter. Your image is processed by two separate AI mode
 
 ---
 
-### 🛠️ Tech Stack (Kullanılan Teknolojiler)
+###  Tech Stack (Kullanılan Teknolojiler)
 
 This project is a full-stack MLOps application, combining backend, frontend, and cloud deployment.
 
@@ -50,7 +50,7 @@ This project is a full-stack MLOps application, combining backend, frontend, and
 
 ---
 
-### 🚀 How to Run Locally (Yerel Makinede Çalıştırma)
+###  How to Run Locally (Yerel Makinede Çalıştırma)
 
 1.  **Clone the repository:**
     ```bash
